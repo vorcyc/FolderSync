@@ -1,0 +1,24 @@
+﻿<Application x:Class="Vorcyc.FolderSync.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:Vorcyc.FolderSync"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <!--<Color x:Key="AccentColor">#ee5050</Color>-->
+
+            <Color x:Key="AccentColor">#7e3bbc</Color>
+
+            <!--修改全局字体-->
+            <FontFamily x:Key="DefaultFontFamily">Microsoft YaHei</FontFamily>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/Vorcyc.ModernUI;component/Assets/ModernUI.xaml"/>
+                <ResourceDictionary Source="/Vorcyc.ModernUI;component/Assets/ModernUI.Light.xaml"/>
+                <ResourceDictionary Source="/Vorcyc.ModernUI;component/Assets/Icons.xaml"/>
+
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
